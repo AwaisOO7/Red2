@@ -578,52 +578,22 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9fD-sx-dXP">
-                                        <rect key="frame" x="68" y="86" width="164" height="30"/>
+                                        <rect key="frame" x="50" y="86" width="200" height="30"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RCK-fA-Vbz">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1234" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RCK-fA-Vbz">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="HxY-Ca-nbK"/>
-                                                    <constraint firstAttribute="width" constant="35" id="bsx-7S-AXr"/>
+                                                    <constraint firstAttribute="width" constant="200" id="bsx-7S-AXr"/>
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WXB-cM-gZO">
-                                                <rect key="frame" x="43" y="0.0" width="35" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="35" id="iZb-Cy-PGN"/>
-                                                    <constraint firstAttribute="height" constant="30" id="oe2-Ab-g8M"/>
-                                                </constraints>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Vw-n7-bNA">
-                                                <rect key="frame" x="86" y="0.0" width="35" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="35" id="VDW-R6-cTz"/>
-                                                    <constraint firstAttribute="height" constant="30" id="xeh-hy-ffQ"/>
-                                                </constraints>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W0u-QW-I4h">
-                                                <rect key="frame" x="129" y="0.0" width="35" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="35" id="JtN-tK-23f"/>
-                                                    <constraint firstAttribute="height" constant="30" id="sSj-Cv-BXa"/>
-                                                </constraints>
-                                                <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeP-yf-xFE" customClass="UIButtonStyle" customModule="Red" customModuleProvider="target">
-                                        <rect key="frame" x="68" y="137" width="164" height="30"/>
+                                        <rect key="frame" x="50" y="137" width="200" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Submit">
                                             <color key="titleColor" red="0.64648715820000002" green="0.76276967009999996" blue="0.3622136869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -641,7 +611,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpn-FN-ew3" customClass="UIButtonStyle" customModule="Red" customModuleProvider="target">
-                                        <rect key="frame" x="68" y="188" width="164" height="30"/>
+                                        <rect key="frame" x="50" y="188" width="200" height="30"/>
                                         <state key="normal" title="Resend"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
@@ -853,6 +823,6 @@
         <image name="user" width="60" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qq3-Ca-8xQ"/>
+        <segue reference="lKf-wB-1R6"/>
     </inferredMetricsTieBreakers>
 </document>
