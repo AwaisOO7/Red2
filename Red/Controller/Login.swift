@@ -21,6 +21,7 @@ class Login: UIViewController , UIPickerViewDelegate ,UIPickerViewDataSource{
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print("Type Selected = \(pickerData[row])")
+        print("Type Selected = \(pickerData[row])")
     }
 
     @IBOutlet weak var UserTypePickerView: UIPickerView!
