@@ -21,7 +21,9 @@ class Login: UIViewController , UIPickerViewDelegate ,UIPickerViewDataSource{
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print("Type Selected = \(pickerData[row])")
-        print("Type Selected = \(pickerData[row])")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            self.UserTypePickerView.isHidden = true
+        }
     }
 
     @IBOutlet weak var UserTypePickerView: UIPickerView!
