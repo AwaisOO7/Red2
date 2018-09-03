@@ -568,17 +568,17 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="C89-oE-0gS">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="C89-oE-0gS">
                                 <rect key="frame" x="10" y="68" width="300" height="392"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the verification code which we've sent at your number" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lO-lW-hc9">
-                                        <rect key="frame" x="14.5" y="0.0" width="271" height="69"/>
+                                        <rect key="frame" x="14.5" y="0.0" width="271" height="65"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9fD-sx-dXP">
-                                        <rect key="frame" x="68" y="89" width="164" height="30"/>
+                                        <rect key="frame" x="68" y="86" width="164" height="30"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RCK-fA-Vbz">
                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
@@ -623,7 +623,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeP-yf-xFE" customClass="UIButtonStyle" customModule="Red" customModuleProvider="target">
-                                        <rect key="frame" x="68" y="139" width="164" height="30"/>
+                                        <rect key="frame" x="68" y="137" width="164" height="30"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Submit">
                                             <color key="titleColor" red="0.64648715820000002" green="0.76276967009999996" blue="0.3622136869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -641,7 +641,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpn-FN-ew3" customClass="UIButtonStyle" customModule="Red" customModuleProvider="target">
-                                        <rect key="frame" x="68" y="189" width="164" height="30"/>
+                                        <rect key="frame" x="68" y="188" width="164" height="30"/>
                                         <state key="normal" title="Resend"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
