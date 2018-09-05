@@ -9,7 +9,8 @@
 import UIKit
 
 class Login: UIViewController , UIPickerViewDelegate ,UIPickerViewDataSource{
-   
+    @IBOutlet weak var UserTypeBtn: UIButtonStyle!
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -22,6 +23,7 @@ class Login: UIViewController , UIPickerViewDelegate ,UIPickerViewDataSource{
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print("Type Selected = \(pickerData[row])")
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            self.UserTypeBtn.setTitle(self.pickerData[row], for: .normal)
             self.UserTypePickerView.isHidden = true
         }
     }
