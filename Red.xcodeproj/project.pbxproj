@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52069D37A253197B43C6DEA2 /* libPods-Red.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D32476C1049853D15F9BEA /* libPods-Red.a */; };
 		AFFAF0F7213D0A1C00AD96C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */; };
 		AFFAF0F9213D0A1C00AD96C0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F8213D0A1C00AD96C0 /* Login.swift */; };
 		AFFAF0FC213D0A1C00AD96C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFAF0FA213D0A1C00AD96C0 /* Main.storyboard */; };
@@ -25,11 +26,16 @@
 		EE1456D7213E5247003E48AC /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1456CC213E5247003E48AC /* AkiraTextField.swift */; };
 		EE1456D8213E5247003E48AC /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1456CD213E5247003E48AC /* IsaoTextField.swift */; };
 		EE1456D9213E5247003E48AC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE1456CE213E5247003E48AC /* Info.plist */; };
+		EE1456DC213E66BF003E48AC /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1456DB213E66BF003E48AC /* OrdersViewController.swift */; };
+		EE1456DE213E66E0003E48AC /* OrdersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1456DD213E66E0003E48AC /* OrdersViewCell.swift */; };
+		EE1456E0213FE168003E48AC /* GooglemapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1456DF213FE168003E48AC /* GooglemapsController.swift */; };
 		EE9C2B4A213D623200D38668 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9C2B3F213D623100D38668 /* HoshiTextField.swift */; };
 		EE9C2B56213D636300D38668 /* Workshop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9C2B55213D636300D38668 /* Workshop.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07D32476C1049853D15F9BEA /* libPods-Red.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Red.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183A5911823B7F257E1E187B /* Pods-Red.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.release.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.release.xcconfig"; sourceTree = "<group>"; };
 		AFFAF0F3213D0A1C00AD96C0 /* Red.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Red.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFAF0F8213D0A1C00AD96C0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		AFFAF108213D1F5B00AD96C0 /* ViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
 		AFFAF109213D1F5B00AD96C0 /* UIButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonStyle.swift; sourceTree = "<group>"; };
 		AFFAF10A213D1F5C00AD96C0 /* UILableX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILableX.swift; sourceTree = "<group>"; };
+		B4D49DA3CC374A446B963CD7 /* Pods-Red.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1456C3213E5247003E48AC /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
 		EE1456C4213E5247003E48AC /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
 		EE1456C6213E5247003E48AC /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		EE1456CC213E5247003E48AC /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
 		EE1456CD213E5247003E48AC /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
 		EE1456CE213E5247003E48AC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1456DB213E66BF003E48AC /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		EE1456DD213E66E0003E48AC /* OrdersViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewCell.swift; sourceTree = "<group>"; };
+		EE1456DF213FE168003E48AC /* GooglemapsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglemapsController.swift; sourceTree = "<group>"; };
 		EE9C2B3F213D623100D38668 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		EE9C2B55213D636300D38668 /* Workshop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Workshop.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,17 +70,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52069D37A253197B43C6DEA2 /* libPods-Red.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127741CF44A7470331D266B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D32476C1049853D15F9BEA /* libPods-Red.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B36DFE51CFA394A283EB0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4D49DA3CC374A446B963CD7 /* Pods-Red.debug.xcconfig */,
+				183A5911823B7F257E1E187B /* Pods-Red.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AFFAF0EA213D0A1C00AD96C0 = {
 			isa = PBXGroup;
 			children = (
 				AFFAF0F5213D0A1C00AD96C0 /* Red */,
 				AFFAF0F4213D0A1C00AD96C0 /* Products */,
+				25B36DFE51CFA394A283EB0B /* Pods */,
+				127741CF44A7470331D266B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +115,9 @@
 		AFFAF0F5213D0A1C00AD96C0 /* Red */ = {
 			isa = PBXGroup;
 			children = (
+				AFFAF10E213D1F6300AD96C0 /* UI Designable Classes */,
 				AFFAF110213D1F8700AD96C0 /* Controller */,
 				AFFAF10F213D1F7E00AD96C0 /* View */,
-				AFFAF10E213D1F6300AD96C0 /* UI Designable Classes */,
 				AFFAF0FD213D0A2F00AD96C0 /* Assets.xcassets */,
 				AFFAF102213D0A2F00AD96C0 /* Info.plist */,
 			);
@@ -143,10 +173,21 @@
 			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
+		EE1456DA213E666E003E48AC /* WorkshopController */ = {
+			isa = PBXGroup;
+			children = (
+				EE1456DB213E66BF003E48AC /* OrdersViewController.swift */,
+				EE1456DD213E66E0003E48AC /* OrdersViewCell.swift */,
+				EE1456DF213FE168003E48AC /* GooglemapsController.swift */,
+			);
+			path = WorkshopController;
+			sourceTree = "<group>";
+		};
 		EE9C2B54213D634B00D38668 /* Workshop */ = {
 			isa = PBXGroup;
 			children = (
 				EE9C2B55213D636300D38668 /* Workshop.storyboard */,
+				EE1456DA213E666E003E48AC /* WorkshopController */,
 			);
 			path = Workshop;
 			sourceTree = "<group>";
@@ -158,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFFAF105213D0A2F00AD96C0 /* Build configuration list for PBXNativeTarget "Red" */;
 			buildPhases = (
+				CA9824CE206337DB582051DA /* [CP] Check Pods Manifest.lock */,
 				AFFAF0EF213D0A1C00AD96C0 /* Sources */,
 				AFFAF0F0213D0A1C00AD96C0 /* Frameworks */,
 				AFFAF0F1213D0A1C00AD96C0 /* Resources */,
+				9B204CDF52C11840D71A34E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +262,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B204CDF52C11840D71A34E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Red/Pods-Red-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Red/Pods-Red-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9824CE206337DB582051DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Red-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFFAF0EF213D0A1C00AD96C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -227,18 +311,21 @@
 				EE1456CF213E5247003E48AC /* YoshikoTextField.swift in Sources */,
 				EE1456D2213E5247003E48AC /* YokoTextField.swift in Sources */,
 				EE1456D6213E5247003E48AC /* KaedeTextField.swift in Sources */,
+				EE1456DC213E66BF003E48AC /* OrdersViewController.swift in Sources */,
 				EE1456D8213E5247003E48AC /* IsaoTextField.swift in Sources */,
 				AFFAF10B213D1F5C00AD96C0 /* ViewStyle.swift in Sources */,
 				EE1456D3213E5247003E48AC /* TextFieldEffects.swift in Sources */,
 				EE1456D1213E5247003E48AC /* MinoruTextField.swift in Sources */,
 				EE9C2B4A213D623200D38668 /* HoshiTextField.swift in Sources */,
 				AFFAF10C213D1F5C00AD96C0 /* UIButtonStyle.swift in Sources */,
+				EE1456DE213E66E0003E48AC /* OrdersViewCell.swift in Sources */,
 				EE1456D7213E5247003E48AC /* AkiraTextField.swift in Sources */,
 				EE1456D5213E5247003E48AC /* MadokaTextField.swift in Sources */,
 				AFFAF0F9213D0A1C00AD96C0 /* Login.swift in Sources */,
 				AFFAF10D213D1F5C00AD96C0 /* UILableX.swift in Sources */,
 				AFFAF0F7213D0A1C00AD96C0 /* AppDelegate.swift in Sources */,
 				EE1456D4213E5247003E48AC /* JiroTextField.swift in Sources */,
+				EE1456E0213FE168003E48AC /* GooglemapsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,10 +467,11 @@
 		};
 		AFFAF106213D0A2F00AD96C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D49DA3CC374A446B963CD7 /* Pods-Red.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7ZR92A7RTG;
+				DEVELOPMENT_TEAM = R2CC9DX8EA;
 				INFOPLIST_FILE = Red/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -398,10 +486,11 @@
 		};
 		AFFAF107213D0A2F00AD96C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183A5911823B7F257E1E187B /* Pods-Red.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7ZR92A7RTG;
+				DEVELOPMENT_TEAM = R2CC9DX8EA;
 				INFOPLIST_FILE = Red/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
