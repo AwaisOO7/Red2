@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52069D37A253197B43C6DEA2 /* libPods-Red.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D32476C1049853D15F9BEA /* libPods-Red.a */; };
+		AF3A526C213FF82D0060B496 /* LocationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A526B213FF82D0060B496 /* LocationMapVC.swift */; };
 		AFFAF0F7213D0A1C00AD96C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */; };
 		AFFAF0F9213D0A1C00AD96C0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F8213D0A1C00AD96C0 /* Login.swift */; };
 		AFFAF0FC213D0A1C00AD96C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFAF0FA213D0A1C00AD96C0 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		07D32476C1049853D15F9BEA /* libPods-Red.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Red.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A5911823B7F257E1E187B /* Pods-Red.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.release.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.release.xcconfig"; sourceTree = "<group>"; };
+		AF3A526B213FF82D0060B496 /* LocationMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapVC.swift; sourceTree = "<group>"; };
 		AFFAF0F3213D0A1C00AD96C0 /* Red.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Red.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFAF0F8213D0A1C00AD96C0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			children = (
 				AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */,
 				AFFAF0F8213D0A1C00AD96C0 /* Login.swift */,
+				AF3A526B213FF82D0060B496 /* LocationMapVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				EE1456CF213E5247003E48AC /* YoshikoTextField.swift in Sources */,
 				EE1456D2213E5247003E48AC /* YokoTextField.swift in Sources */,
 				EE1456D6213E5247003E48AC /* KaedeTextField.swift in Sources */,
+				AF3A526C213FF82D0060B496 /* LocationMapVC.swift in Sources */,
 				EE1456DC213E66BF003E48AC /* OrdersViewController.swift in Sources */,
 				EE1456D8213E5247003E48AC /* IsaoTextField.swift in Sources */,
 				AFFAF10B213D1F5C00AD96C0 /* ViewStyle.swift in Sources */,
