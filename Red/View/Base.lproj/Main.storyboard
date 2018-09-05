@@ -1277,13 +1277,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iau-ig-Xhe">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iau-ig-Xhe">
                                 <rect key="frame" x="40" y="82" width="240" height="308"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sKF-AV-33W" firstAttribute="trailing" secondItem="iau-ig-Xhe" secondAttribute="trailing" constant="40" id="5wa-dn-OJ1"/>
+                            <constraint firstItem="iau-ig-Xhe" firstAttribute="leading" secondItem="sKF-AV-33W" secondAttribute="leading" constant="40" id="60v-Ua-L49"/>
+                            <constraint firstItem="sKF-AV-33W" firstAttribute="bottom" secondItem="iau-ig-Xhe" secondAttribute="bottom" constant="90" id="SDL-Eh-04W"/>
+                            <constraint firstItem="iau-ig-Xhe" firstAttribute="top" secondItem="sKF-AV-33W" secondAttribute="top" constant="62" id="rVs-LO-Bqz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sKF-AV-33W"/>
                     </view>
                 </viewController>
