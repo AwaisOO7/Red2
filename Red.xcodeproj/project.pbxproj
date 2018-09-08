@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		52069D37A253197B43C6DEA2 /* libPods-Red.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D32476C1049853D15F9BEA /* libPods-Red.a */; };
 		AF3A526C213FF82D0060B496 /* LocationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A526B213FF82D0060B496 /* LocationMapVC.swift */; };
+		AF5B1BB821425D03004A8059 /* RequestHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B1BB721425D03004A8059 /* RequestHistoryVC.swift */; };
+		AF5B1BBB21425EAC004A8059 /* RequestHistoryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B1BBA21425EAC004A8059 /* RequestHistoryTVCell.swift */; };
 		AFFAF0F7213D0A1C00AD96C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */; };
 		AFFAF0F9213D0A1C00AD96C0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F8213D0A1C00AD96C0 /* Login.swift */; };
 		AFFAF0FC213D0A1C00AD96C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFAF0FA213D0A1C00AD96C0 /* Main.storyboard */; };
@@ -38,6 +40,8 @@
 		07D32476C1049853D15F9BEA /* libPods-Red.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Red.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A5911823B7F257E1E187B /* Pods-Red.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.release.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.release.xcconfig"; sourceTree = "<group>"; };
 		AF3A526B213FF82D0060B496 /* LocationMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapVC.swift; sourceTree = "<group>"; };
+		AF5B1BB721425D03004A8059 /* RequestHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHistoryVC.swift; sourceTree = "<group>"; };
+		AF5B1BBA21425EAC004A8059 /* RequestHistoryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHistoryTVCell.swift; sourceTree = "<group>"; };
 		AFFAF0F3213D0A1C00AD96C0 /* Red.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Red.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFAF0F8213D0A1C00AD96C0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -96,6 +100,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AF5B1BB921425E6C004A8059 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AF5B1BBA21425EAC004A8059 /* RequestHistoryTVCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		AFFAF0EA213D0A1C00AD96C0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 		AFFAF0F5213D0A1C00AD96C0 /* Red */ = {
 			isa = PBXGroup;
 			children = (
+				AF5B1BB921425E6C004A8059 /* TableViewCells */,
 				AFFAF10E213D1F6300AD96C0 /* UI Designable Classes */,
 				AFFAF110213D1F8700AD96C0 /* Controller */,
 				AFFAF10F213D1F7E00AD96C0 /* View */,
@@ -153,6 +166,7 @@
 				AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */,
 				AFFAF0F8213D0A1C00AD96C0 /* Login.swift */,
 				AF3A526B213FF82D0060B496 /* LocationMapVC.swift */,
+				AF5B1BB721425D03004A8059 /* RequestHistoryVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,11 +333,13 @@
 				EE1456D8213E5247003E48AC /* IsaoTextField.swift in Sources */,
 				AFFAF10B213D1F5C00AD96C0 /* ViewStyle.swift in Sources */,
 				EE1456D3213E5247003E48AC /* TextFieldEffects.swift in Sources */,
+				AF5B1BBB21425EAC004A8059 /* RequestHistoryTVCell.swift in Sources */,
 				EE1456D1213E5247003E48AC /* MinoruTextField.swift in Sources */,
 				EE9C2B4A213D623200D38668 /* HoshiTextField.swift in Sources */,
 				AFFAF10C213D1F5C00AD96C0 /* UIButtonStyle.swift in Sources */,
 				EE1456DE213E66E0003E48AC /* OrdersViewCell.swift in Sources */,
 				EE1456D7213E5247003E48AC /* AkiraTextField.swift in Sources */,
+				AF5B1BB821425D03004A8059 /* RequestHistoryVC.swift in Sources */,
 				EE1456D5213E5247003E48AC /* MadokaTextField.swift in Sources */,
 				AFFAF0F9213D0A1C00AD96C0 /* Login.swift in Sources */,
 				AFFAF10D213D1F5C00AD96C0 /* UILableX.swift in Sources */,
@@ -475,7 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2CC9DX8EA;
+				DEVELOPMENT_TEAM = 7ZR92A7RTG;
 				INFOPLIST_FILE = Red/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,7 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R2CC9DX8EA;
+				DEVELOPMENT_TEAM = 7ZR92A7RTG;
 				INFOPLIST_FILE = Red/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
