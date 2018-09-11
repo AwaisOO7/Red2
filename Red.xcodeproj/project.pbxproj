@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52069D37A253197B43C6DEA2 /* libPods-Red.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D32476C1049853D15F9BEA /* libPods-Red.a */; };
 		AF3A526C213FF82D0060B496 /* LocationMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3A526B213FF82D0060B496 /* LocationMapVC.swift */; };
+		AF3E0F862147952300D9BEDD /* UIimageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E0F852147952300D9BEDD /* UIimageView.swift */; };
 		AF5B1BB821425D03004A8059 /* RequestHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B1BB721425D03004A8059 /* RequestHistoryVC.swift */; };
 		AF5B1BBB21425EAC004A8059 /* RequestHistoryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5B1BBA21425EAC004A8059 /* RequestHistoryTVCell.swift */; };
 		AFFAF0F7213D0A1C00AD96C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAF0F6213D0A1C00AD96C0 /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 		07D32476C1049853D15F9BEA /* libPods-Red.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Red.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183A5911823B7F257E1E187B /* Pods-Red.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Red.release.xcconfig"; path = "Pods/Target Support Files/Pods-Red/Pods-Red.release.xcconfig"; sourceTree = "<group>"; };
 		AF3A526B213FF82D0060B496 /* LocationMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapVC.swift; sourceTree = "<group>"; };
+		AF3E0F852147952300D9BEDD /* UIimageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimageView.swift; sourceTree = "<group>"; };
 		AF5B1BB721425D03004A8059 /* RequestHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHistoryVC.swift; sourceTree = "<group>"; };
 		AF5B1BBA21425EAC004A8059 /* RequestHistoryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHistoryTVCell.swift; sourceTree = "<group>"; };
 		AFFAF0F3213D0A1C00AD96C0 /* Red.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Red.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 		AFFAF10E213D1F6300AD96C0 /* UI Designable Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AF3E0F852147952300D9BEDD /* UIimageView.swift */,
 				AFFAF109213D1F5B00AD96C0 /* UIButtonStyle.swift */,
 				AFFAF10A213D1F5C00AD96C0 /* UILableX.swift */,
 				AFFAF108213D1F5B00AD96C0 /* ViewStyle.swift */,
@@ -335,6 +338,7 @@
 				EE1456D3213E5247003E48AC /* TextFieldEffects.swift in Sources */,
 				AF5B1BBB21425EAC004A8059 /* RequestHistoryTVCell.swift in Sources */,
 				EE1456D1213E5247003E48AC /* MinoruTextField.swift in Sources */,
+				AF3E0F862147952300D9BEDD /* UIimageView.swift in Sources */,
 				EE9C2B4A213D623200D38668 /* HoshiTextField.swift in Sources */,
 				AFFAF10C213D1F5C00AD96C0 /* UIButtonStyle.swift in Sources */,
 				EE1456DE213E66E0003E48AC /* OrdersViewCell.swift in Sources */,
